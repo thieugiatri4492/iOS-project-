@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A8DDC541BB3D947003D8A6D /* SithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8DDC531BB3D947003D8A6D /* SithViewController.swift */; };
+		5A8DDC571BB3DDD9003D8A6D /* bgbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DDC561BB3DDD9003D8A6D /* bgbutton.png */; };
+		5A8DDC591BB3DE65003D8A6D /* loginbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DDC581BB3DE65003D8A6D /* loginbg.png */; };
 		AB59400D1B9D563B00A3D553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59400C1B9D563B00A3D553 /* AppDelegate.swift */; };
 		AB59400F1B9D563B00A3D553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59400E1B9D563B00A3D553 /* ViewController.swift */; };
 		AB5940121B9D563B00A3D553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5940101B9D563B00A3D553 /* Main.storyboard */; };
@@ -19,7 +22,6 @@
 		ABE0AEC41BA1155A003354B2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0AEC31BA1155A003354B2 /* ThirdViewController.swift */; };
 		ABE0AEC61BA115CC003354B2 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0AEC51BA115CC003354B2 /* FourthViewController.swift */; };
 		ABE0AEC81BA158FA003354B2 /* FithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0AEC71BA158FA003354B2 /* FithViewController.swift */; };
-		ABE0AECA1BA16BC0003354B2 /* SithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0AEC91BA16BC0003354B2 /* SithViewController.swift */; };
 		ABE2ED3A1B9E6B6D00E6E1C1 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE2ED391B9E6B6D00E6E1C1 /* CustomTextField.swift */; };
 		ABF0915C1BA7EE170083FD47 /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0915B1BA7EE170083FD47 /* CustomPickerView.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A8DDC531BB3D947003D8A6D /* SithViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SithViewController.swift; sourceTree = "<group>"; };
+		5A8DDC561BB3DDD9003D8A6D /* bgbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgbutton.png; path = imageapp/bgbutton.png; sourceTree = "<group>"; };
+		5A8DDC581BB3DE65003D8A6D /* loginbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginbg.png; path = imageapp/loginbg.png; sourceTree = "<group>"; };
 		AB5940071B9D563B00A3D553 /* Emobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB59400B1B9D563B00A3D553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB59400C1B9D563B00A3D553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +56,6 @@
 		ABE0AEC31BA1155A003354B2 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		ABE0AEC51BA115CC003354B2 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		ABE0AEC71BA158FA003354B2 /* FithViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FithViewController.swift; sourceTree = "<group>"; };
-		ABE0AEC91BA16BC0003354B2 /* SithViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SithViewController.swift; path = ../SithViewController.swift; sourceTree = "<group>"; };
 		ABE2ED391B9E6B6D00E6E1C1 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		ABF0915B1BA7EE170083FD47 /* CustomPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A8DDC551BB3DDCB003D8A6D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5A8DDC561BB3DDD9003D8A6D /* bgbutton.png */,
+				5A8DDC581BB3DE65003D8A6D /* loginbg.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		AB593FFE1B9D563B00A3D553 = {
 			isa = PBXGroup;
 			children = (
@@ -95,13 +108,14 @@
 		AB5940091B9D563B00A3D553 /* Emobile */ = {
 			isa = PBXGroup;
 			children = (
+				5A8DDC551BB3DDCB003D8A6D /* images */,
 				AB59400C1B9D563B00A3D553 /* AppDelegate.swift */,
 				AB59400E1B9D563B00A3D553 /* ViewController.swift */,
 				ABAC44941B9ED2F00048A75C /* SecondViewController.swift */,
 				ABE0AEC31BA1155A003354B2 /* ThirdViewController.swift */,
 				ABE0AEC51BA115CC003354B2 /* FourthViewController.swift */,
 				ABE0AEC71BA158FA003354B2 /* FithViewController.swift */,
-				ABE0AEC91BA16BC0003354B2 /* SithViewController.swift */,
+				5A8DDC531BB3D947003D8A6D /* SithViewController.swift */,
 				ABCD221B1BA6AADB007C3B48 /* SeventhViewController.swift */,
 				ABCD221D1BA6ABF7007C3B48 /* EightViewController.swift */,
 				AB5940101B9D563B00A3D553 /* Main.storyboard */,
@@ -219,7 +233,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A8DDC571BB3DDD9003D8A6D /* bgbutton.png in Resources */,
 				AB5940121B9D563B00A3D553 /* Main.storyboard in Resources */,
+				5A8DDC591BB3DE65003D8A6D /* loginbg.png in Resources */,
 				AB5940171B9D563B00A3D553 /* LaunchScreen.xib in Resources */,
 				AB5940141B9D563B00A3D553 /* Images.xcassets in Resources */,
 			);
@@ -242,13 +258,13 @@
 				ABE0AEC61BA115CC003354B2 /* FourthViewController.swift in Sources */,
 				ABAC44951B9ED2F00048A75C /* SecondViewController.swift in Sources */,
 				ABCD221C1BA6AADB007C3B48 /* SeventhViewController.swift in Sources */,
-				ABE0AECA1BA16BC0003354B2 /* SithViewController.swift in Sources */,
 				AB59400F1B9D563B00A3D553 /* ViewController.swift in Sources */,
 				ABE0AEC41BA1155A003354B2 /* ThirdViewController.swift in Sources */,
 				AB59400D1B9D563B00A3D553 /* AppDelegate.swift in Sources */,
 				ABE0AEC81BA158FA003354B2 /* FithViewController.swift in Sources */,
 				ABCD221E1BA6ABF7007C3B48 /* EightViewController.swift in Sources */,
 				ABE2ED3A1B9E6B6D00E6E1C1 /* CustomTextField.swift in Sources */,
+				5A8DDC541BB3D947003D8A6D /* SithViewController.swift in Sources */,
 				ABF0915C1BA7EE170083FD47 /* CustomPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
